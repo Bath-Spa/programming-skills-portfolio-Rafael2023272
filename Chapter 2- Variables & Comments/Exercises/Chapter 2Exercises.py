@@ -17,7 +17,7 @@ C='"You never fail until you stop trying"'
 print(A,""+ B,""+C,)
 
 
-#EXERCISE 3 STRIPPING
+#EXERCISE 3 STRIPPING NAMES
 
 W="\trafael purisima\n"
 print(W)

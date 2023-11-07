@@ -1,9 +1,11 @@
 #Exercise 1: Print strings
 #Write a Python program to print the following string in a specific format
 
-#Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are
+#Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. 
+#Twinkle, twinkle, little star, How I wonder what you are
 
-print("Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are")
+print("Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky.")
+print("Twinkle, twinkle, little star, How I wonder what you are")
 
 
 #Exercise 2: Write a Python program to get the Python version you are using.
@@ -18,10 +20,10 @@ print(platform.python_version())
 #Exercise 3: Print Date and Time
 #Write a Python program to display the current date and time.
 
-date="October_21_2023"
+date="October 21, 2023"
 print(date)
 
-time="2:15_pm"
+time="2:15 pm"
 print(time)
 
 
