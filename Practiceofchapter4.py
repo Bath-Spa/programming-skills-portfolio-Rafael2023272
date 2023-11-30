@@ -29,4 +29,5 @@ print(1<2 and 2<3)
 grade=95
 print(100>=grade>=80)
 
+range(10)
 

@@ -77,6 +77,32 @@ money_left="total money that is left ="
 print(candies_bought+str(int(20/2)))
 print(money_left+str(20%2))
 
+response_code= 201
+match response_code:
+    case 200:
+        print("OK")
+    case 201:
+        print("CREATED")
+    case 300:
+        print("MULTIPLE CHOICES")
+
+
+lang=input("what's the programming language you want to learn")
+match lang:
+    case"JavaScript":
+        print("you can be a web developer")
+    case"Python":
+        print("you can become data scientist")
+    case"PHP":
+        print("you can become a backed developer")
+    case"Solidity":
+        print("you can become a blockchain developer")
+    case"Java":
+        print("you can become a mobile app developer")
+    case _:
+       print("the language doesn't matter,what matters is solving problems")
+
+
 
 
 
