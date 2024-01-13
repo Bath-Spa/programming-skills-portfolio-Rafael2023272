@@ -43,7 +43,7 @@ class VendingMachine:
     def process_transaction(self, item):
         if self.balance >= item[1]:
             self.balance -= item[1]
-            print(f"\nPayment successful!\nChange: {self.balance:.2f} aed")
+            print(f"\nPayment successful!\nYour Change is: {self.balance:.2f} aed")
 
 #THIS PART WILL SHOW THE SELECTED ITEM AND THE TRANSACTION PROCESS
     def run(self):
