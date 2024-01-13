@@ -59,7 +59,7 @@ print(f"{name}, Hi! please come to my dinner tomorrow at 7pm.")
 name = guests[2].title()
 print(f"{name}, Hi! please come to my dinner tommorow at 7pm.")
 name = guests[2].title()
-print(f"\nSorry,s{name},I can't make it to your dinner.")
+print(f"\nSorry,{name},I can't make it to your dinner.")
 
 # Bill Gates can't make it! Let's invite Taylor swift instead.
 del(guests[2])
@@ -107,35 +107,26 @@ print("\nFinal guest list: ", guests)
 #• Use reverse() to change the order of your list again. Print the list to show it’s back to its original order.
 #• Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
 #• Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-
 places = ['Seoul', 'London', 'New York', 'Paris', 'Antartica']
 print("Original order:")
 print(places)
-
 print("\nAlphabetical order:")
 print(sorted(places))
-
 print("\nOriginal order:")
 print(places)
-
 print("\nReverse alphabetical order:")
 print(sorted(places, reverse=True))
-
 print("\nOriginal order:")
 print(places)
-
 places.reverse()
 print("\nReversed order:")
 print(places)
-
 places.reverse()
 print("\nOriginal order:")
 print(places)
-
 places.sort()
 print("\nAlphabetical order:")
 print(places)
-
 places.sort(reverse=True)
 print("\nReverse alphabetical order:")
 print(places)
